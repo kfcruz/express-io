@@ -1,0 +1,9 @@
+html > body > #root {
+  background-color: #171616;
+  /* background-image: url(./assets/beachsunset.png); */
+  color: white;
+}
+
+body {
+  overflow-y: scroll;
+}

@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@theme {
+  --color-lush-pink: #ff4f6c;
+  --animate-appear: appear 1s ease-in-out;
+  --background-image-beach: url(./assets/beachsunset.png);
+
+  @keyframes appear {
+    0% {
+      opacity: 0.2;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}
